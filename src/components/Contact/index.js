@@ -12,13 +12,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-    //   .then((result) => {
-    //     setOpen(true);
-    //     form.current.reset();
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+     emailjs.sendForm('service_iacpyju', 'template_p48vaih', form.current, 'g3nQelaw1F1JGenyC')
+       .then((result) => {
+         setOpen(true);
+         form.current.reset();
+       }, (error) => {
+         console.log(error.text);
+       });
   };
 
   return (

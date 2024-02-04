@@ -3,6 +3,7 @@ const library =require("../../src/images/Dashboard.jpg");
 const restaurant =require("../../src/images/restaurant.png");
 const Lebanese =require("../../src/images/lebanese.png");
 
+
 export const Bio = {
   name: "Nader Allaeddine",
   roles: [
@@ -13,7 +14,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Naderallaeddine",
   resume:
-    "",
+    "https://drive.google.com/file/d/1uS6akwPo12VZ38Le-m9XVHTzgmynOD_o/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nader-allaeddine-ab00962a8/",
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/",
