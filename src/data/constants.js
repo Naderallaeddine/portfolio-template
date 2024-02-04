@@ -220,7 +220,7 @@ export const projects = [
     image:
       library,
     tags: ["Java", "JavaFx", "Design Pattern", "MySql"],
-    category: "web app",
+    category: "software",
     github: "https://github.com/Naderallaeddine/LibrarySystem-JavaFX",
     webapp: "",
     member: [],
