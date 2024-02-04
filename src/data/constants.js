@@ -1,21 +1,16 @@
-const weather =require("../../src/images/weather-app.png");
-const library =require("../../src/images/Dashboard.jpg");
-const restaurant =require("../../src/images/restaurant.png");
-const Lebanese =require("../../src/images/lebanese.png");
-
 
 export const Bio = {
-  name: "Nader Allaeddine",
+  name: "Name",
   roles: [
     "Full Stack Developer",
     "Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/Naderallaeddine",
+  github: "https://github.com/",
   resume:
-    "https://drive.google.com/file/d/1uS6akwPo12VZ38Le-m9XVHTzgmynOD_o/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/nader-allaeddine-ab00962a8/",
+    "",
+  linkedin: "https://www.linkedin.com/",
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/",
   facebook: "https://www.facebook.com/",
@@ -143,31 +138,27 @@ export const experiences = [
   {
     id: 0,
     img:'',
-    role: "LARAVEL CMS RESTAUTANT",
-    company: "Lebanese University",
-    date: "April 2023 - May 2023",
-    desc: "An online CMS restaurant built with php and laravel, with both a user page and anadmin page. Admins can modify the menu, create offers, book tables, and control the overall functionality of the website.",
+    role: "work",
+    company: "company",
+    date: "date",
+    desc: "description",
     skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP",
-      "Laravel",
-      "MySql"
+      "skills",
+
     ],
-    doc: "https://github.com/Naderallaeddine/laravel-restaurant-reservation-main",
+    doc: "",
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: Lebanese,
-    school: "Lebanese University",
-    date: "Nov 2019 - Nov 2023",
+    img: "img",
+    school: "name",
+    date: "date",
     grade: "",
     desc: "",
-    degree: "Bachelor in Computer Science",
+    degree: "degree",
   },
 
 ];
@@ -175,55 +166,18 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "LARAVEL CMS RESTAUTANT",
-    date: "Apr 2023 - May 2023",
+    title: "project",
+    date: "date",
     description:
-      "An online CMS restaurant built with php and laravel, with both a user page and anadmin page. Admins can modify the menu, create offers, book tables, and control the overall functionality of the website.",
+      "description",
     image:
-      restaurant,
+      "img",
     tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP",
-      "Laravel",
-      "MySql"
+      "tags"
     ],
-    category: "web app",
-    github: "https://github.com/Naderallaeddine/laravel-restaurant-reservation-main",
+    category: "category",
+    github: "https://github.com/",
     webapp: "",
   },
-  {
-    id: 1,
-    title: "Weather App",
-    date: "",
-    description:
-      "A weather application using react.js, allow users to retrieve weather information for a specific city. Leveraged the OpenWeatherMap API to fetch real-time weather data and utilized state management to dynamically update the user interface.",
-    image:
-      weather,
-    tags: [
-      "React",
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Api",
-    ],
-    category: "web app",
-    github: "https://github.com/Naderallaeddine/Weather-App",
-    webapp: "",
-  },
-  {
-    id: 2,
-    title: "LIBRARY SYSTEM JAVA FX",
-    date: "",
-    description:
-      "A local library system built with Java Fx. Implemented with several design patterns some of which are MVC, Proxy, Visitor, and much more. Admins can add new books and students to the system and rent or return the rented books.",
-    image:
-      library,
-    tags: ["Java", "JavaFx", "Design Pattern", "MySql"],
-    category: "software",
-    github: "https://github.com/Naderallaeddine/LibrarySystem-JavaFX",
-    webapp: "",
-    member: [],
-  },
+
 ];
