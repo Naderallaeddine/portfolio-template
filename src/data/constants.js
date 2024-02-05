@@ -166,7 +166,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "project",
+    title: "project ",
     date: "date",
     description:
       "description",
@@ -176,7 +176,7 @@ export const projects = [
       "tags"
     ],
     category: "category",
-    github: "https://github.com/",
+    github: "",
     webapp: "",
   },
 
